@@ -1,0 +1,56 @@
+#slider {
+	background: linear-gradient(to bottom right,#002f4b,transparent),
+				url(../img/slider.jpg) no-repeat center center fixed;
+	background-size: cover;
+	position: relative;
+	height: 700px;
+	width: 100%;
+	border-bottom: 5px solid rgb(81, 191, 219);
+}
+
+.hero {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	z-index: 2;
+
+	h1 {
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 600;
+		font-size: 4rem;
+		color: #fff;
+		line-height: 1.3;
+		margin-top: 0;
+		-webkit-font-feature-settings: "kern" 1;
+		text-rendering: optimizeLegibility;
+	}
+
+	p {
+		display: block;
+		max-width: 650px;
+		text-align: center;
+		padding: 0px;
+		margin: 0 0 0 50px;
+		color: #FFF;
+		font-size: 1.5rem;
+		text-transform: normal;
+		letter-spacing: 0;
+	}
+
+	.btn-prime {
+		background-color: rgb(81, 191, 219);
+		border-radius: 32px;
+		border: 0;
+		padding: 10px 35px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		margin-top: 30px;
+	}
+}
